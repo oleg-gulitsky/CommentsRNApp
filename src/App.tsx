@@ -1,11 +1,13 @@
 import React from 'react';
-import {SafeAreaView, StatusBar, Text} from 'react-native';
+import {Provider} from 'react-redux';
+
+import {store} from './store';
+import {Navigation} from './navigation';
 
 export default function App(): React.JSX.Element {
   return (
-    <SafeAreaView>
-      <StatusBar />
-      <Text>Comments RN App</Text>
-    </SafeAreaView>
+    <Provider store={store}>
+      <Navigation />
+    </Provider>
   );
 }
