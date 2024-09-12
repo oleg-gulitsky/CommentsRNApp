@@ -38,7 +38,7 @@ export function ReplayInput({parentId, onClosePress}: ReplayInputProps) {
           ]}
           disabled={!replay}
           onPress={handelReplayPress}>
-          <Text style={styles.buttonText}>Replay</Text>
+          <Text style={styles.buttonText}>{parentId ? 'Replay' : 'Add'}</Text>
         </Pressable>
         {onClosePress && (
           <Pressable
