@@ -58,6 +58,7 @@ const styles = StyleSheet.create({
     padding: 5,
     borderWidth: 2,
     borderColor: 'grey',
+    color: 'black',
   },
   buttonsWrapper: {
     flexDirection: 'row',

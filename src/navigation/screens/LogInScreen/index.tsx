@@ -82,6 +82,7 @@ const styles = StyleSheet.create({
     padding: 5,
     borderWidth: 1,
     borderColor: 'grey',
+    color: 'black',
   },
   error: {
     color: 'red',

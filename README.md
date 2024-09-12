@@ -1,5 +1,7 @@
 # Comments React Native App
 
+[apk](https://github.com/oleg-gulitsky/CommentsRNApp/blob/main/comments.apk)
+
 ## Реализованные фичи:
 
 - Локальный логин. Пользователь не сохраняется между сессиями
